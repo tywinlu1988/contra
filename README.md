@@ -31,7 +31,7 @@ The two analysis cores never see each other's output — genuine disagreement is
 
 ## Privacy by Architecture
 
-- **BYOK** — bring your own API key: Anthropic, OpenAI, OpenRouter, DeepSeek, Qwen, or Doubao. There is no Contra server; your text goes straight from your browser to the provider you chose.
+- **BYOK** — bring your own API key: Anthropic, OpenAI, OpenRouter, DeepSeek, Qwen, Doubao, or Kimi. There is no Contra server; your text goes straight from your browser to the provider you chose.
 - **Encrypted at rest** — keys are AES-GCM encrypted on your device; Pro adds an optional passphrase vault.
 - **Zero telemetry** — no analytics, no tracking, no accounts.
 - **One-click revoke** — wipe all local secrets instantly.
@@ -40,7 +40,7 @@ Details: [Privacy Policy](./PRIVACY.md)
 
 ## Pricing
 
-**Free**: Hostile Reviewer core · all six providers · 10 reviews/day
+**Free**: Hostile Reviewer core · all seven providers · 10 reviews/day
 **Pro — $9 lifetime**: all three cores · unlimited reviews · custom endpoints · passphrase vault
 
 One-time purchase. No subscription, no account. Checkout is handled by a compliant merchant of record (global cards, VAT included); you receive a license key by email and paste it into Settings → Activate Pro.
