@@ -1,4 +1,4 @@
-# Contra — The Devil's Advocate for Writers
+# Contra Free — The Devil's Advocate for Writers
 
 > **English** | [中文](./README_CN.md)
 
@@ -40,10 +40,9 @@ Details: [Privacy Policy](./PRIVACY.md)
 
 ## Pricing
 
-**Free**: Hostile Reviewer core · all seven providers · 10 reviews/day
-**Pro — $9 lifetime**: all three cores · unlimited reviews · custom endpoints · passphrase vault
+**Current release: Contra Free.** All core review features, free, no account: Hostile Reviewer core, all seven providers (BYOK), 10 reviews/day.
 
-One-time purchase. No subscription, no account. Checkout is handled by a compliant merchant of record (global cards, VAT included); you receive a license key by email and paste it into Settings → Activate Pro.
+**Contra Pro — coming soon ($9 lifetime):** all three cores (Blind-Spot Hunter + Steel-Man Rewriter), unlimited reviews, custom endpoints, passphrase vault. One-time purchase via a compliant merchant of record; license key delivered by email. The Pro activation entry is already built into the extension and marked "coming soon" until checkout opens.
 
 ## Install
 
