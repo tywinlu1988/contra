@@ -21,9 +21,9 @@ Contra calls large-language-model APIs using **your own API key**, from your own
 
 Text you select for review is sent directly from your browser to the LLM provider you configured, under your own API account and that provider's privacy policy. It is not sent anywhere else. Selecting a different provider changes the destination — nothing else receives it.
 
-## 4. Pro License Validation
+## 4. Paid Edition (Future)
 
-If you activate Pro, the extension sends **your license key — and nothing else —** to `live.dodopayments.com` (Dodo Payments, our payment processor) to validate it. The validation result is cached locally and silently revalidated at most once every 7 days. No device identifiers, browsing data, or reviewed text are included in this request.
+Contra Free (this version) contains **no payment functionality and makes no license-related network requests**. When the paid edition launches in a future update, license validation will send **your license key — and nothing else —** to our merchant of record's public API. This document will be updated before that release.
 
 ## 5. Local Encryption: Honest Boundaries
 
@@ -44,7 +44,6 @@ The settings panel includes a **"Revoke and clear all"** button. It wipes every 
 | `activeTab` | Read the text you explicitly select on the current page |
 | `sidePanel`, `contextMenus` | Show the review UI and the right-click menu entry |
 | Content script on all pages (`<all_urls>`) | Statically injected page-extraction helper (Readability full-text parsing and selection reading). It only runs in response to your explicit action — clicking "read selection" / "read full page", or the right-click menu entry. It collects and transmits nothing on its own. |
-| Host permissions: `api.anthropic.com`, `api.openai.com`, `openrouter.ai`, `api.deepseek.com`, `dashscope.aliyuncs.com`, `ark.cn-beijing.volces.com`, `api.moonshot.cn`, `api.moonshot.ai`, `live.dodopayments.com` | Allow BYOK requests to connect directly from the extension to the official API domains of the seven supported providers (avoiding browser CORS restrictions), plus license validation with our payment processor (Dodo Payments). No data is sent to any other host, and nothing is collected by us. |
 
 The extension makes no connections other than those described in Sections 2–4. **Custom endpoints** (Pro) are not covered by the host permissions above: calls to a user-configured endpoint rely on that endpoint's own CORS support.
 
